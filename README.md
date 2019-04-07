@@ -1,5 +1,6 @@
 # Sprint Challenge: Single Page Applications - Smurfs
 
+
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored Single Page Applications, React Router I - II & HTTP/AJAX I - II. In your challenge for this Sprint, you will demonstrate proficiency by creating a Single Page Application that performs CRUD operations on a locally hosted API, Smurfs.
 
 ## Instructions
@@ -29,8 +30,38 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain the differences between `client-side routing` and `server-side routing`.
+
+  ***Server-side***: A server-side request causes the whole page to refresh.
+
+    pros:
+      -A server-side route will only request the data that’s needed.
+      -Search engines are optimised for webpages that come from the server.
+
+    cons:
+    -Can take longer for a page to be rendered as you are requesting everything at once.
+    -Every request results in a full page refresh.
+
+
+    ***Client-side***: Only some elements within the application will refresh.
+
+      pros:
+        -Because less data is processed, routing between views is generally faster.
+
+      cons:
+        -Initial loading time is slower.
+        -Search engine optimization is getting better, but not as good as server-side which has been the standard.
+
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+C - POST
+R - GET
+U - PUT 
+D - DELETE
+
 - [ ] Mention three tools we can use to make AJAX requests.
+
+jQuery, Axios, and Fetch
 
 
 ## Project Set Up
